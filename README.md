@@ -26,8 +26,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 CMM is a fun, educational tool that will process computer metrics such as RAM and CPU utilization. The software can be run on Mac, Linux or Windows machines as long as they fulfill the requirements above. The way the software works, is the React App is a dashboard viewed in the browser, and the Metric Server collects the metric data and provides api end points for this data. The React App will submit GET requests to the metric server in order to collect this data.
 
 ### Flow chart
-![single-flow-chart](singleHostChart.png)
+<img src="https://github.com/enablex3/cmm/blob/main/singleHostChart.PNG" alt="singlehostchart.png"/>
 
 ### Demo
 
-![demo image](Demo.png)
+<img src="https://github.com/enablex3/cmm/blob/main/Demo.PNG" alt="demo.png"/>

@@ -105,33 +105,6 @@ function App() {
   );
 }
 
-// Put back after confirmed obj converstion
-/*<p style={{ textAlign: "center"}}>Localhost</p>
-      <div className="row">
-        <div className="column">
-          {(data == null) ? null :
-            <CpuPercentChart
-              key={time}
-              data={cpuPercentData}
-              seconds={seconds}
-            />
-          }
-        </div>
-        <div className="column">
-          {(data == null) ? null :
-            <div style={{display:"block"}}>
-              <RamPercentChart 
-                key={time}
-                data={ramPercentData}
-                seconds={seconds}
-                redraw={true}
-              />
-            </div>
-          }
-          </div>
-        </div>
-*/
-
 // Add beneath RamPercentChart to show used vs. available
 // this works, but rerender causes the scroll to reposition
 /*
